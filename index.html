@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio 🇪🇹 </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">Miki Shibabaw</div>
+    <div class="">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Miki Shibabaw</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="togglemenu()">About</a></li>
+            <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+            <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+            <li><a href="#contacts" onclick="togglemenu()">Contact</a></li>
+        </div>
+    </div>
+
+</nav>
+<section id="profile">
+    <div class="section_pic-container">
+    <img src="./assets/1.JPG-2.png" alt="Miki Shibabaw photo">
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Miki Shibabaw</h1>
+        <p class="section_text_p2">Mobile App and Website developer</p>
+        <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/MIKI SHIBABAW ESHETIE cv T.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contacts'">
+            Contact Info
+          </button>
+        </div>
+        <div class="socials-container">
+            <img src="./assets/linkedin.png " alt="L"
+            class="icon" onclick="location.href='https://linkedin.com'">
+            <img src="./assets/github.png " alt="G"
+            class="icon" onclick="location.href='https://Github.com/amexyegondar'">
+        </div>
+    </div>
+</section>
+<section id="about">
+  <p class="section_text_p1">Get To Know More </p>  
+  <h1 class="title">About Me</h1>  
+   <div class="section-container">
+    <div class="section_pic-container">
+        <img src="./assets/1.JPG" alt="Profile Picture" class="about-pic">
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>1+ year <br/> Full stack Developent</p>
+            <p>1+ year <br/> Mobile App Developent</p>
+        </div>
+        <div class="details-container">
+            <img src="./assets/educaiton.png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>B.Sc Bachelors Degree <br/> in Information Systems</p>
+            
+        </div>
+      </div>
+      <div class="text-container">
+        <p>I have  skill in web and mobile application development
+             in React JS, Python, Flutter, and React Native. 
+             My expertise in these technologies has 
+             allowed me to build applications that can run on multiple platforms and devices.
+              I enjoy working on challenging projects and am passionate
+               about delivering high-quality solutions that meet the needs of my clients.
+                With a keen eye for detail and a commitment to excellence,
+                 I am confident in my ability to develop innovative applications that exceed expectations.
+
+        </p>
+      </div>
+    </div>
+   </div>
+   <img src="./assets/Doubledownarrow.gif" alt="Arrow" class="icon arrow" 
+   onclick="location.href='./#experience'"/>
+</section>
+<section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                    Full stack Development
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>Tailwind CSS</h3>
+                            <p>Intermedaite</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>SASS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>React JS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermedaite</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                   Backend Development
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>Firebase</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>Mongo DB</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>Django</h3>
+                            <p>Intermedaite</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/check.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h3>Flask</h3>
+                            <p>Intermedaite</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/Doubledownarrow.gif" alt="Arrow" class="icon arrow" 
+   onclick="location.href='./#projects'"/>
+</section>
+<section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/p1.jpg" alt="Project1" class="project-img">
+
+            </div>
+            <h2 class="experience-sub-title project-title">
+                Project One
+            </h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/amexyegondar/Tour-website'">Github</button>
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/amexyegondar/Tour-website'">Live Demo</button>
+                
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/p2.jpg" alt="Project1" class="project-img">
+
+            </div>
+            <h2 class="experience-sub-title project-title">
+                Project Two
+            </h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/amexyegondar/Food-delivery'">Github</button>
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/amexyegondar/Food-delivery'">Live Demo</button>
+                
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/p3.png" alt="Project1" class="project-img">
+
+            </div>
+            <h2 class="experience-sub-title project-title">
+                Project Three
+            </h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/amexyegondar/Grocery'">Github</button>
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/amexyegondar/Grocery'">Live Demo</button>
+                 
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="./assets/Doubledownarrow.gif" alt="Arrow" class="icon arrow" 
+   onclick="location.href='./#contacts'"/>
+</section>
+<section id="contacts">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" 
+            alt="Email Icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:shibabawamanual@gmail ">shibabawamanual@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" 
+            alt="LinkedIn Icon" class="icon contact-icon">
+        <p><a href="https://linkedin.com ">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+            
+            </ul>
+            
+        </div>
+    </nav>
+    <p>Copyright &#169 2023 Miki Shibabaw.All right reserved.</p>
+</footer>
+ <script src="script.js"></script>   
+</body>
+</html>

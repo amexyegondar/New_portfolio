@@ -1,0 +1,56 @@
+@media screen and (max-width:1400px){
+  #profile{
+    height:83vh;
+    margin-bottom: 6rem;
+
+  }  
+  #about-containers{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:1000px){
+  #desktop-nav{
+    display: none;
+  }  
+  #hamburger-nav{
+    display: flex;
+  }
+  #experience, .experience-details-container{
+    margin-top: 2rem;
+
+  }
+  #profile, .section-container{
+    display: block;
+
+  }
+  .arrow{
+    display: none;
+  }
+  section, .section-container{
+    height: fit-content;
+
+  }
+  section{
+    margin: 0 5%;
+  }
+  .section_pic-container{
+    
+    margin: 0 auto 2rem;
+    margin-bottom: 20px;
+
+  }
+  .about-containers{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
